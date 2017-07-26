@@ -1,0 +1,69 @@
+.slideImage {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.noPadding {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rightBanner {
+    background-color: #C5E7F0;
+}
+
+.text {
+    padding: 5%;
+}
+
+.textheading1 {
+    border-bottom: 2px solid #388794;
+    color: #388794;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+.textheading {
+    color: #388794;
+    margin-top: 0;
+}
+
+.col-centered {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+mark {
+    background-color: #388794;
+    color: #FFFFFF;
+}
+
+.page-footer {
+    background-color: #02A7C3;
+    border-top: solid #C5E7F0 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.ft,
+.ft>a,
+.ft1,
+.ft1>a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (min-width:480px) {
+    .page-footer .ft,
+    .page-footer .ft>a {
+        text-align: left;
+    }
+    .page-footer .ft1,
+    .page-footer .ft1>a {
+        text-align: right;
+    }
+}

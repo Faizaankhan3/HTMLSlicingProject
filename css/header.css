@@ -1,0 +1,25 @@
+.header {
+    background-color: #02A7C3;
+    border-bottom: solid #C5E7F0 5px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.header-text {
+    line-height: 60px;
+    text-align: center;
+}
+
+.header-text>a {
+    color: #FFFFFF;
+}
+
+.header .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+    .pull-right-sm {
+        float: right;
+    }
+}
