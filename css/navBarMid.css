@@ -7,7 +7,8 @@
 
 .navbar-custom .navbar-nav>li>a {
     color: #000000;
-}
+    font-size: 16px; 
+    }
 
 .navbar-custom .navbar-nav>li>a:hover,
 .navbar-custom .navbar-nav>li>a:focus {
