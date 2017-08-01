@@ -9,14 +9,14 @@
     color: #000000;
     font-size: 18px;
     font-weight: 500;
-    text-shadow: #000000 0px 0px 1px;
+    text-shadow: #000000 0px 0px 0.5px;
 }
 
 .navbar-custom .navbar-nav>li>a:hover,
 .navbar-custom .navbar-nav>li>a:focus {
     background-color: transparent;
     color: #388794;
-    text-shadow: #388794 0px 0px 1px;
+    text-shadow: #388794 0px 0px 0.5px;
 }
 
 .navbar-custom .navbar-nav>.active>a,
@@ -48,10 +48,8 @@
     ul.nav.navbar-nav {
         margin-top: 10px !important;
     }
-}
-
-@media only screen and (max-width: 766px) {
-    .collapsing,
+    
+       .collapsing,
     .in {
         background-color: #CCCCCC;
         text-align: center;
@@ -59,16 +57,20 @@
     .collapsing ul>li>a,
     .in ul>li>a {
         color: #FFFFFF!important;
+        text-shadow: #FFFFFF 0px 0px 0.5px!important;
     }
-    .collapsing>ul>li>a:hover,
+    
+    .collapsing ul>li>a:hover,
     .in ul>li>a:hover {
         background-color: transparent;
         color: #000000!important;
     }
-    .collapsing>ul>li>.active>a,
-    .collapsing>ul>li>.active>a:hover,
-    .collapsing>ul>li>.active>a:focus {
-        background-color: red;
-        color: yellow;
+    .collapsing ul>.active>a,
+    .collapsing ul>.active>a:hover,
+    .collapsing ul>.active>a:focus,
+    {
+        background-color: red!important;
+        color: yellow!important; 
     }
 }
+
