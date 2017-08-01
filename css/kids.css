@@ -18,14 +18,14 @@
     padding: 5%;
 }
 
-.textheading1 {
+.para-heading {
     border-bottom: 2px solid #388794;
     color: #388794;
     padding-bottom: 2%;
     padding-left: 5%;
 }
 
-.textheading {
+.section-heading {
     color: #388794;
     margin-top: 0;
 }
