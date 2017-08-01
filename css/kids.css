@@ -26,8 +26,12 @@
 }
 
 .section-heading {
+    
     color: #388794;
+    font-weight: 500;
     margin-top: 0;
+    text-shadow: #388794 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .col-centered {

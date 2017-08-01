@@ -7,13 +7,16 @@
 
 .navbar-custom .navbar-nav>li>a {
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: #000000 0px 0px 1px;
 }
 
 .navbar-custom .navbar-nav>li>a:hover,
 .navbar-custom .navbar-nav>li>a:focus {
     background-color: transparent;
     color: #388794;
+    text-shadow: #388794 0px 0px 1px;
 }
 
 .navbar-custom .navbar-nav>.active>a,
@@ -21,6 +24,7 @@
 .navbar-custom .navbar-nav>.active>a:focus {
     background-color: transparent;
     color: #388794;
+    text-shadow: #388794 0px 0px 0.5px;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
