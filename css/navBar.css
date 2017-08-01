@@ -50,20 +50,21 @@
     .collapsing,
     .in {
         background-color: #CCCCCC;
+        text-align: center;
     }
     .collapsing ul>li>a,
     .in ul>li>a {
         color: #FFFFFF!important;
     }
-    .collapsing>ul>li>a:focus,
-    .in ul>li>a:focus {
+    .collapsing>ul>li>a:hover,
+    .in ul>li>a:hover {
         background-color: transparent;
         color: #000000!important;
     }
-    .navbar-custom .navbar-nav>.active>a,
-    .navbar-custom .navbar-nav>.active>a:hover,
-    .navbar-custom .navbar-nav>.active>a:focus {
-        background-color: transparent;
-        color: black;
+    .collapsing>ul>li>.active>a,
+    .collapsing>ul>li>.active>a:hover,
+    .collapsing>ul>li>.active>a:focus {
+        background-color: red;
+        color: yellow;
     }
 }
