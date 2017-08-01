@@ -8,7 +8,7 @@
     line-height: 60px;
 }
 
-.header-text>a {
+.header-text>.nowrap>a {
     color: #FFFFFF;
 }
 
@@ -18,10 +18,10 @@
 
 .header-brand {
     display: inline-block;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right: 1px;
     line-height: inherit;
+    margin-right: 1px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     white-space: nowrap;
 }
 
@@ -32,11 +32,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-       .header-brand {
+    .header-brand {
         padding-bottom: -10px;
     }
     .header-text {
-        line-height: 5px;
-        padding-bottom: 15px; 
+        line-height: 25px;
+        padding-bottom: 15px;
     }
 }

@@ -1,3 +1,7 @@
+.nowrap {
+    white-space: nowrap;
+}
+
 .slideImage {
     height: auto;
     margin: 0 auto;
@@ -26,7 +30,6 @@
 }
 
 .section-heading {
-    
     color: #388794;
     font-weight: 500;
     margin-top: 0;
