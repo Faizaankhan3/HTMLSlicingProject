@@ -1,10 +1,17 @@
 .nowrap {
+    margin-left: 2px;
+    margin-right: 2px;
     white-space: nowrap;
 }
 
 .slideImage {
     height: auto;
     margin: 0 auto;
+    width: 100%;
+}
+
+.img-responsive {
+    height: auto;
     width: 100%;
 }
 
@@ -18,7 +25,24 @@
     background-color: #C5E7F0;
 }
 
+.section-heading {
+    color: #388794;
+    font-weight: 500;
+    margin-top: 0;
+    text-shadow: #388794 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.paragraph {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .text {
+    font-weight: bold;
     padding: 5%;
 }
 
@@ -27,14 +51,6 @@
     color: #388794;
     padding-bottom: 2%;
     padding-left: 5%;
-}
-
-.section-heading {
-    color: #388794;
-    font-weight: 500;
-    margin-top: 0;
-    text-shadow: #388794 0px 0px 1px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .col-centered {
@@ -52,25 +68,24 @@ mark {
     background-color: #02A7C3;
     border-top: solid #C5E7F0 5px;
     margin-top: 10px;
-    overflow: hidden;
-    padding: 15px;
+    padding: 30px;
 }
 
-.ft,
-.ft>a,
-.ft1,
-.ft1>a {
+.footer-text {
+    display: inline-block;
+}
+
+.footer-text,
+.footer-text a {
     color: #FFFFFF;
     text-align: center;
 }
 
-@media screen and (min-width:480px) {
-    .page-footer .ft,
-    .page-footer .ft>a {
-        text-align: left;
+@media only screen and (max-width: 768px) {
+    .rightBanner {
+        margin: 15px;
     }
-    .page-footer .ft1,
-    .page-footer .ft1>a {
-        text-align: right;
+    .footer-text {
+        display: block;
     }
 }

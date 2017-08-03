@@ -2,6 +2,8 @@
     background-color: #02A7C3;
     border-bottom: solid #C5E7F0 5px;
     color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header-text {
@@ -23,6 +25,15 @@
     padding-bottom: 15px;
     padding-top: 15px;
     white-space: nowrap;
+}
+
+.twitter-icon {
+    margin-right: 4px;
+}
+
+.pipe {
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 @media only screen and (min-width: 768px) {
