@@ -7,8 +7,7 @@
 
 .navbar-custom .navbar-nav>li>a {
     color: #000000;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
     text-shadow: #000000 0px 0px 0.2px;
 }
 
@@ -46,7 +45,7 @@
         z-index: -1;
     }
     ul.nav.navbar-nav {
-        margin-top: 10px !important;
+        margin-top: 40px !important;
     }
     .collapsing,
     .in {
