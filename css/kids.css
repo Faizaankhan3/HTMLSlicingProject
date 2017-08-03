@@ -87,5 +87,6 @@ mark {
     }
     .footer-text {
         display: block;
+        margin-bottom: 15px;
     }
 }
