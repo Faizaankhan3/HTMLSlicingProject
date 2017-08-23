@@ -45,9 +45,11 @@ h3 {
     text-align: left;
 }
 
-mark {
+.read-more {
     background-color: #388794;
     color: #FFFFFF;
+    padding: .2em;
+    font-weight: bold;
 }
 
 .page-footer {
@@ -79,5 +81,11 @@ small {
     .footer-text {
         display: block;
         margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    span {
+        display: block;
     }
 }
