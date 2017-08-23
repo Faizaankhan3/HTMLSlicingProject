@@ -2,8 +2,8 @@
     background-color: #02A7C3;
     border-bottom: solid #C5E7F0 5px;
     color: #FFFFFF;
-    padding-top: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .header-text {
@@ -31,9 +31,9 @@
     margin-right: 4px;
 }
 
-.pipe {
+.draw-pipe {
     border-right: solid white 1px;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 @media only screen and (min-width: 768px) {
