@@ -39,7 +39,7 @@
     min-height: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .navbar-custom {
         min-height: 0px;
     }
